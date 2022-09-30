@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom' ;
 function Navbar() {
 
     return (
-        <div  style={{display: "flex", justifyContent: 'space-between' , alignItems: 'center',margin:'15px 0px 0px 0px', border: '1px solid lightgrey', height: '10vh', padding: '0px 10px', fontFamily: 'Barlow,sans-serif', fontSize: '16px', fontWeight: '400' }}>
+        <div  style={{display: "flex",position: 'sticky', top: '0',backgroundColor:'white' ,justifyContent: 'space-between' , alignItems: 'center',margin:'15px 0px 0px 0px', border: '1px solid lightgrey', height: '10vh', padding: '0px 10px', fontFamily: 'Barlow,sans-serif', fontSize: '16px', fontWeight: '400' }}>
             <div style={{width: '13vw', height: '5vh', display: "flex", justifyContent: 'space-between' , alignItems: 'center'}}>
                 <Link to=''>
                 <img style={{width: '100%', height: '80%'}} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5ee401ee1f08215e6dbf0661_color-lettermark.svg" alt="Title-pic" />
@@ -22,7 +22,7 @@ function Navbar() {
                 <h4>TEAM</h4>
                 </Link>
 
-                <Link to='careers'>
+                <Link to='/career'>
                 <h4>CAREERS</h4>
                 </Link>
 
