@@ -1,4 +1,4 @@
-
+import Footer from './Footer';
 
 function Team () {
     return (
@@ -16,7 +16,7 @@ function Team () {
             </div>
 
             {/* TEAM PHOTOS */}
-            <div>
+            <div style={{margin: '20px auto'}}>
                 <h1>Meet Our Team</h1>
                 <div style={{display: 'flex',margin: '20px auto',gap: '20px', justifyContent: 'flex-start', alignItem: 'center',flexWrap: 'wrap'}}>
 
@@ -288,24 +288,24 @@ function Team () {
             </div>
 
             {/* containor */}
-            <div style={{backgroundColor: '#f3f5fb',padding: '1%', border: '1px solid',margin:'20px auto', height: '450px',textAlign: 'center'}}>
+            <div style={{backgroundColor: '#f3f5fb',padding: '1%',margin:'20px auto', height: '450px',textAlign: 'center'}}>
                 <h3 style={{color: '#6f8093',fontSize: '40px',fontWeight: '550',fontfamily: 'IBM Plex Sans,sans Serif'}}>Fortunate to be backed by world-class investors</h3>
-                <div style={{display: 'flex',gap: '15px',width: '90%',justifyContent:'space-evenly',border: '1px solid black',margin:'7% auto 20px auto',alignItems:'center'}}>
-                    <div style={{width: '30%',height: '150px', border: '1px solid'}}>
+                <div style={{display: 'flex',gap: '15px',width: '90%',justifyContent:'space-evenly',margin:'7% auto 20px auto',alignItems:'center'}}>
+                    <div style={{width: '30%',height: '150px'}}>
                         <div style={{width:' 350px', height: '150px',display:'flex',alignItems:'center',justifyContent:'center',}}>
                         <img style={{width: '100%', heigth: '100%'}} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5ea20b35249c08cdb3393fef_tarsadia.svg" alt="" />
                         </div>
                         <h6 style={{fontSize: '18px',fontWeight: '400',fontfamily: 'IBM Plex Sans,sans Serif'}}>TARSADIA</h6>
                     </div>
 
-                    <div style={{width: '30%',height: '150px', border: '1px solid'}}>
+                    <div style={{width: '30%',height: '150px'}}>
                         <div style={{width:' 200px', height: '150px',margin:'auto',display:'flex',alignItems:'center',justifyContent:'center'}}>
                         <img style={{width: '100%', heigth: '100%'}} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5ea20cc4a9bb6c61ceb12d53_gv.svg" alt="" />
                         </div>
                         <h6 style={{fontSize: '18px',fontWeight: '400',fontfamily: 'IBM Plex Sans,sans Serif'}}>FORMERLY GOOGLE VENTURES</h6>
                     </div>
 
-                    <div style={{width: '30%',height: '150px', border: '1px solid'}}>
+                    <div style={{width: '30%',height: '150px'}}>
                         <div style={{width:' 350px', height: '150px',margin:'auto',display:'flex',alignItems:'center',justifyContent:'center',}}>
                         <img style={{width: '100%', heigth: '100%'}} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5ea211634ec0809b10070bec_ff.svg" alt="" />
                         </div>
@@ -313,6 +313,19 @@ function Team () {
                     </div>
                 </div>
             </div>
+
+            {/* last patto */}
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '20px', margin: '15px auto'}}>
+                <div style={{width: '25%'}}>
+                    <h1>Ready to get started?</h1>
+                </div>
+                <div style={{width: '70%', gap:'20px'}}>
+                    <button style={{margin: '0px 70px 10px 0px', padding: '15px 35px',border: '3px solid #9a76d0', color: '#9a76d0',borderRadius:'50px'}}>SCHEDULE A CALL</button>
+                    <button style={{color: 'white', backgroundColor: '#9a76d0', border: 'none',padding: '15px 35px',borderRadius: '50px'}}>REQUEST A QUOTE</button>
+                </div>
+            </div>
+
+            <Footer />
         </div>
     )
 }

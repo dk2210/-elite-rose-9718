@@ -3,7 +3,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Career from './Career';
 import Job from './job';
-import Team from './Team'
+import Team from './Team';
+import Services from './Services';
 
 
 function AllRoutes(){
@@ -16,7 +17,7 @@ function AllRoutes(){
             <Route path='/career' element={<Career />}></Route>
             <Route path='/career/job' element={<Job />}></Route>
             <Route path='/team' element={<Team />}></Route>
-            <Route></Route>
+            <Route path='/services' element={<Services />}></Route>
             <Route></Route>
             <Route></Route>
         </Routes>

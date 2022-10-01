@@ -10,7 +10,7 @@ function Navbar() {
                 </Link>
             </div>
             <div style={{ width: '50vw', height: '8vh', display: "flex", justifyContent: 'space-evenly' , alignItems: 'center' }}>
-                <Link to='services'>
+                <Link to='/services'>
                 <h4>SERVICES</h4>
                 </Link>
 
