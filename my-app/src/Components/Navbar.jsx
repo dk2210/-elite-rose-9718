@@ -18,7 +18,7 @@ function Navbar() {
                 <h4>SECURITY</h4>
                 </Link>
 
-                <Link to='team'>
+                <Link to='/team'>
                 <h4>TEAM</h4>
                 </Link>
 
